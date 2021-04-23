@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package pokedex;
+
+option java_multiple_files = true;
+option java_package = "br.com.grpcpokemon.server.protos";
+option java_outer_classname = "PokedexProtos";
+
+import "google/protobuf/empty.proto";
+
+message Input {
+	int32 pokedexCode = 1;
+}
+
+message Pokemon {
+	string name = 1;
+}
+
+service Pokedex {
+	rpc getPokemonByCode (Input) returns (Pokemon) {}
+	rpc getAllPokemons (google.protobuf.Empty) returns (stream Pokemon) {}
+}
