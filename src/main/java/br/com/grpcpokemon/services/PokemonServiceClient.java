@@ -1,4 +1,4 @@
-package br.com.grpcpokemon.server.services;
+package br.com.grpcpokemon.services;
 
 import java.util.ArrayList;
 import java.util.Iterator;

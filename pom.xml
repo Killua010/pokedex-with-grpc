@@ -108,7 +108,7 @@
                         io.grpc:protoc-gen-grpc-java:1.22.1:exe:${os.detected.classifier}
                     </pluginArtifact>
                     <protoSourceRoot>
-                        src/main/java/br/com/grpcpokemon/server/proto
+                        src/main/java/br/com/grpcpokemon/proto
                     </protoSourceRoot>
                 </configuration>
                 <executions>

@@ -1,4 +1,4 @@
-package br.com.grpcpokemon.server.controllers;
+package br.com.grpcpokemon.controllers;
 
 import java.util.List;
 
@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.grpcpokemon.server.services.PokemonServiceClient;
+import br.com.grpcpokemon.services.PokemonServiceClient;
 
 @RestController
 @RequestMapping("/pokemons")

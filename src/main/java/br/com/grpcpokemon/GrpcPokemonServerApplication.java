@@ -1,4 +1,4 @@
-package br.com.grpcpokemon.server;
+package br.com.grpcpokemon;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

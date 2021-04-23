@@ -1,4 +1,4 @@
-package br.com.grpcpokemon.server.models;
+package br.com.grpcpokemon.models;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

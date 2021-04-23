@@ -1,4 +1,4 @@
-package br.com.grpcpokemon.server.services;
+package br.com.grpcpokemon.services;
 
 import java.util.List;
 import java.util.concurrent.Callable;
@@ -14,8 +14,8 @@ import org.springframework.web.client.RestTemplate;
 
 import com.google.protobuf.Empty;
 
-import br.com.grpcpokemon.server.models.PokemonResponse;
-import br.com.grpcpokemon.server.models.QtdPokemonResponse;
+import br.com.grpcpokemon.models.PokemonResponse;
+import br.com.grpcpokemon.models.QtdPokemonResponse;
 import br.com.grpcpokemon.server.protos.Input;
 import br.com.grpcpokemon.server.protos.PokedexGrpc.PokedexImplBase;
 import br.com.grpcpokemon.server.protos.Pokemon;

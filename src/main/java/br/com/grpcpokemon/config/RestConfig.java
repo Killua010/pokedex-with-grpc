@@ -1,4 +1,4 @@
-package br.com.grpcpokemon.server.config;
+package br.com.grpcpokemon.config;
 
 import java.time.Duration;
 
